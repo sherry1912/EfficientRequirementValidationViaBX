@@ -1,0 +1,7 @@
+SO.(
+     Room[reception].(Agent[tom])
+  |  Room[corridor].(Light[on,wlan]|Brightness[high]|Agent[carmen])
+  |  Room[electricalroom]
+  |  Room[server].(Light[on,wlan]|Brightness[high])
+  |  Room[office].(Light[off,wlan]|Brightness[low])
+)

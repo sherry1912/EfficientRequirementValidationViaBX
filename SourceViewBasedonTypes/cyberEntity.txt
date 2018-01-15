@@ -1,0 +1,3 @@
+( SO.Room[corridor] , Brightness[high] )
+( SO.Room[server] , Brightness[high] )
+( SO.Room[office] , Brightness[low] )

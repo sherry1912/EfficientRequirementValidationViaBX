@@ -1,0 +1,35 @@
+SO.(
+   Room[reception].(Door[d4] | Door[d1] | Agent[tom] | AP[wlan] )
+  | Room[corridor].(Door[d1] | Door[d3] | Door[d5] | Brightness[low] | Light[off,wlan])
+  | Room[electricalroom].( Door[d4] | Agent[carmen]) 
+  | Room[server].(Door[d3]| Light[on,wlan] | Brightness[high] )  
+  | Room[office].(Door[d5]| Light[off,wlan] | Brightness[low] | Temperature[low] | Heater[off])  
+  )
+
+
+SO.(
+   Room[reception].(Door[d4] | Door[d1] )
+  | Room[corridor].(Door[d1] | Door[d3] | Door[d5] )
+  | Room[electricalroom].( Door[d4] ) 
+  | Room[server].(Door[d3] )  
+  | Room[office].(Door[d5] )  
+  )
+
+
+physical view:
+(SO.Room[reception],Agent[tom])
+(SO.Room[electricalroom],Agent[carmen])
+(SO.Room[office],Heater[off])
+
+
+cyber physical view:
+(SO.Room[reception], AP[wlan])
+(SO.Room[corridor], Light[off,wlan])
+(SO.Room[server], Light[on,wlan])
+(SO.Room[office], Light[off,wlan])
+
+
+cyber view:
+(SO.Room[corridor], Brightness[low])
+(SO.Room[server], Brightness[high])
+(SO.Room[office], Brightness[low])

@@ -1,0 +1,4 @@
+( SO.Room[reception] , AP[wlan] )
+( SO.Room[corridor] , Light[on,wlan] )
+( SO.Room[server] , Light[on,wlan] )
+( SO.Room[office] , Light[off,wlan] )

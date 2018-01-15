@@ -1,0 +1,17 @@
+this is the cyber physical space :
+SO.(
+     Room[reception].(Door[d4]|Door[d1]|Agent[tom]|AP[wlan])
+  |  Room[corridor].(Door[d1]|Door[d3]|Door[d5]|Light[on,wlan]|Brightness[high]|Agent[carmen])
+  |  Room[electricalroom].(Door[d4])
+  |  Room[server].(Door[d3]|Light[on,wlan]|Brightness[high])
+  |  Room[office].(Door[d5]|Heater[off]|Light[off,wlan]|Brightness[low])
+)
+
+this is the requirement 1 view:
+SO.(
+     Room[reception].(Agent[tom])
+  |  Room[corridor].(Light[on,wlan]|Brightness[high]|Agent[carmen])
+  |  Room[electricalroom]
+  |  Room[server].(Light[on,wlan]|Brightness[high])
+  |  Room[office].(Light[off,wlan]|Brightness[low])
+)

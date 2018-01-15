@@ -1,0 +1,3 @@
+( SO.Room[reception] , Agent[tom] )
+( SO.Room[corridor] , Agent[carmen] )
+( SO.Room[office] , Heater[off] )

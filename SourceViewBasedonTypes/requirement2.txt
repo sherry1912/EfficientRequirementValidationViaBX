@@ -1,0 +1,7 @@
+SO.(
+     Room[reception].(Door[d4]|Door[d1]|Agent[tom])
+  |  Room[corridor].(Door[d1]|Door[d3]|Door[d5]|Agent[carmen])
+  |  Room[electricalroom].(Door[d4])
+  |  Room[server].(Door[d3])
+  |  Room[office].(Door[d5])
+)
